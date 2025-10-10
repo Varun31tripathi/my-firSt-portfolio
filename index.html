@@ -4,35 +4,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Page</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-   <h1>PORTFOLIO</h1>
-   <hr>
-   <H2>MY NAME IS VARUN. HERE ARE SOME DETAILS ABOUT ME </H2>
-  
-   <hr>
-    <p> I am a student of computer science engineering at BBDITM,Lucknow. I love to explore new technologies and work on new projects. I am passionate about coding and love to solve problems. I am a quick learner and always eager to learn new things. I am a team player and love to work in a team. I am also a good communicator and can effectively communicate my ideas to others.</p>
-<hr>
-<div><h3>EDUCATION</h3>
-<H4>Here are the details about my education:</H4>
-<a href="/education.html">EDUCATION</a>
-</div>
-<hr>
-<div><h3>EXPERIENCE</h3>
-<H4>Here are some of my experiences:</H4>
-<a href="/experience.html">EXPERIENCE</a></div>
-<hr>
-<div><h3>PROJECTS</h3>
-<h4>Here are some of my projects:</h4>
-<a href="/projects.html">PROJECTS</a></div>
-    <br>
-    <hr>
-    <footer>
-    <h3>CONTACT ME</h3>
-    <h4>You can contact me through the following ways:</h4>
-    <a href=https://www.linkedin.com/in/varun-tripathi-217518252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app target="_blank"><img src="/linkedin.jpg" width="25" alt="LINKEDIN"></a>
-    <a href="mailto:varuntrip99@gmail.com" target="_blank"><img src="/gmail.png" width="25" alt="GMAIL"></a>
-    <a href="https://www.instagram.com/varun_tripathiii?igsh=a2hhbGI5Zm94Zzl3" target="_blank"><img src="/INSTA.jpg" width="25" alt="INSTAGRAM"></a>
-    </footer>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="about.html" target="_blank">About</a></li>
+                <li><a href="/PROJECTS.html">Projects</a></li>
+                <li><a href="mailto:varuntrip99@gmail.com">Contact</a></li>
+
+            </ul>
+            </div>
+  </nav>
+        </nav>
+        <div class="intro">
+            <p class="intro1">Hello, I am </p>
+            <h1 class="intro2">Varun Tripathi</h1>
+            <div class="pfp"></div><br>
+            <p class="bio">I am currently pursuing a B.Tech in Computer Science and Engineering (2022–2026) from Babu Banarasi Das Institute of Technology and Management, Lucknow, with a focus on software engineering, full-stack development, and artificial intelligence. My academic journey has strengthened my foundation in data structures, algorithms, database management, and web technologies.</p>
+        </div>
+    </header>
+    <div class="education1">EDUCATION QUALIFICATION <br>
+    </div>
+    <div class="education2">
+        <div class="10th division">
+            <a href="/EDUCATION.html">
+                10TH GRADE
+            </a>
+            <div class="img" style="background-image: url(images/education.jpeg) ; background-size: cover;"></div>
+            <p>Studied at St.Xavier's Inter College</p>
+        </div>
+        <div class="12th division">
+            <a href="/EDUCATION.html">
+                12TH GRADE
+            </a>
+            <div class="img" style="background-image: url(images/study2.jpeg) ; background-size: cover;"></div>
+            <p>Studied at Seth M.R. Jaipuria Schools</p>
+        </div>
+        <div class="graduation division">
+            <a href="/EDUCATION.html">
+                B.TECH(CSE-DS)
+            </a>
+            <div class="img" style="background-image: url(images/study3.jpeg) ; background-size: cover;"></div>
+            <p>Studing at BBDITM, Lucknow</p>
+        </div>
+        </div>
+    </div>
+    <div class="HEADING2">PROJECTS</div>
+    <div class="projects">
+        <div class="project">
+            <div class="amazon_clone picture" style="background-image: url(images/amazon.png); background-size: cover;"></div>
+            <div class="description">
+                <h3>AMAZON CLONE</h3>
+                <P>This project is a static clone of the Amazon homepage, built using only HTML and CSS, with no JavaScript or backend functionality. It replicates the visual layout and responsive design elements of Amazon's main landing page to demonstrate skills in frontend web development, semantic HTML structuring, and modern CSS styling.
+                    <br>🎯 Features:
+                <br>✅ Fully responsive layout (desktop, tablet, mobile)
+                <br>✅ Header with navigation bar and search bar
+                <br>✅ Category section with clickable placeholders
+                <br>✅ Product grid layout similar to Amazon deals/offers
+                <br>✅ Footer with multiple columns of links and branding
+                <br>✅ Use of Flexbox and CSS Grid for layout
+                <br>✅ Hover effects on buttons and product boxes
+            </P>
+            </div>
+        </div>
+        <div class="project">
+            <div class="description">
+                <h3>EMAIL SPAM IDENTIFIER</h3>
+                <P>The Email Spam Identifier is a machine learning project that classifies emails as spam or not spam (ham) based on their content. It demonstrates the use of Natural Language Processing (NLP) and classification algorithms to analyze textual data and make predictions. This project is useful in understanding how spam filters work in real-world email systems.
+                    <br>🎯 Features:
+                <br>✅ Preprocessing of email text (lowercasing, stopword removal, punctuation stripping)
+                <br>✅ Feature extraction using TF-IDF or Bag-of-Words
+                <br>✅ Model training using classifiers such as:
+                        Naive Bayes (MultinomialNB),
+                        Support Vector Machines (SVM),
+                        Logistic Regression
+                <br>✅ Accuracy, precision, recall, and F1-score metrics
+            </P>
+            </div>
+            <div class="email_spam picture" style="background-image: url(images/email\ spam.jpeg); background-size: cover;"></div>
+        </div>
+        <div class="project">
+            <div class="amazon_clone picture" style="background-image: url(images/amazon.png); background-size: cover;"></div>
+            <div class="description">
+                <h3>AMAZON CLONE</h3>
+                <P>This project is a static clone of the Amazon homepage, built using only HTML and CSS, with no JavaScript or backend functionality. It replicates the visual layout and responsive design elements of Amazon's main landing page to demonstrate skills in frontend web development, semantic HTML structuring, and modern CSS styling.
+                    <br>🎯 Features:
+                <br>✅ Fully responsive layout (desktop, tablet, mobile)
+                <br>✅ Header with navigation bar and search bar
+                <br>✅ Category section with clickable placeholders
+                <br>✅ Product grid layout similar to Amazon deals/offers
+                <br>✅ Footer with multiple columns of links and branding
+                <br>✅ Use of Flexbox and CSS Grid for layout
+                <br>✅ Hover effects on buttons and product boxes
+            </P>
+            </div>
+        </div>
+    </div>
+    <div class="end">
+        <div class="foot">
+            <div class="love"><p>Made with ❤️ & HTML/CSS by Varun Tripathi</p></div>
+            <p>&copy; 2025 All Rights Reserved</p>
+        </div>
+    </div>
 </body>
-</html>
