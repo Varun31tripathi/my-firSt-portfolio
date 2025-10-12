@@ -21,6 +21,8 @@
     height: 500px;
     width: 100%;
     background-color: #D3D3D3;
+    background-image: url(images/faded_gallery-OfdOEdGYiuk-unsplash.jpg);
+    background-size: cover;
     display: flex;
     justify-content:space-evenly;
     align-items: center;
@@ -50,7 +52,7 @@
   background-color: #f9f9f9;
   font-family:'Times New Roman', Times, serif;
   font-size: 18px;
-  background-color:  white;
+  background-color:  black;
 
 }
 .scroll-box h2{
